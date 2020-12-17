@@ -1,6 +1,3 @@
-// first example:
-
-
 let isLocked = false;
 
 if (isLocked) {
@@ -8,8 +5,6 @@ if (isLocked) {
 } else {
   console.log('You will not need a key to open the door.');
 }
-
-
 
 let isCorrect = true;
 
@@ -37,8 +32,6 @@ let isLocked = false;
 
 isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
 
-
-
 let isCorrect = true;
 
 if (isCorrect) {
@@ -55,22 +48,21 @@ if (favoritePhrase === 'Love That!') {
   console.log("I don't love that!");
 }
 
-// if run the answer, console displays: You will not need a key to open the door.
-Correct!
-I love that!
+// if run the code block answer, the result will be: 
+// You will not need a key to open the door. 
+// Correct! 
+// I love that!
 
-// example no2: 
+
+// exercise no.2: 
 
 let isLocked = false;
 
 isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
 
-
-
 let isCorrect = true;
 
 isCorrect ? console.log('Correct!') : console.log('Incorrect!');
-
 
 let favoritePhrase = 'Love That!';
 
@@ -89,21 +81,19 @@ let isLocked = false;
 
 isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
 
-
-
 let isCorrect = true;
 
 isCorrect ? console.log('Correct!') : console.log('Incorrect!');
-
 
 let favoritePhrase = 'Love That!';
 
 (favoritePhrase === 'Love That!') ? console.log('I love that!') : console.log("I don't love that!");
 
 
-// if run the answer, console displays: You will not need a key to open the door.
-Correct!
-I love that!
+// if run the code block answer, the result will be: 
+// You will not need a key to open the door.
+// Correct!
+// I love that!
 
 
 
